@@ -46,14 +46,15 @@ namespace TourFirm
             dataGridView5.DataSource = dt5;
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            TouristsForm form2 = new TouristsForm();
+            form2.ShowDialog();
         }
 
-        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            OnLoad(EventArgs.Empty);
         }
     }
 }
